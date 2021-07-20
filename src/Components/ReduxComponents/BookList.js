@@ -7,18 +7,18 @@ import UserAuth from "../FireBaseConnection/UserAuth";
 import Home from "./Home";
 class BookList extends Component {
   render() {
-    console.log('hi',this.props.userData);
+    // console.log('hi',this.props.userData);
     return (
       <>
-        {this.props.userData ? (
+        {/* {this.props.userData ? ( */}
           <div>
             <button onClick={() => this.props.addBook("alien")}>
               decrement
             </button>
           </div>
-        ) : ( 
+        {/* ) : ( 
           <UserAuth/> 
-        )}
+        )} */}
       </>
     );
   }
